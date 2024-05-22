@@ -41,10 +41,27 @@ main {
   display: flex;
 }
 
+article {
+  padding-right: 5%;
+}
+
+.about-section {
+  margin-bottom: 2rem;
+}
+
 .honorific-list {
   margin-bottom: 0.2rem;
 }
 
 .top-list {
   padding-bottom: 1rem;
+}
+
+@media (min-width: 700px) {
+  main {
+    flex-direction: column;
+  }
+  article {
+    margin-bottom: 2rem;
+  }
 }
