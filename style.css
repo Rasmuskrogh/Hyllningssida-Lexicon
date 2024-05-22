@@ -49,6 +49,10 @@ article {
   margin-bottom: 2rem;
 }
 
+.bold-text {
+  font-weight: 500;
+}
+
 .honorific-list {
   margin-bottom: 0.2rem;
 }
@@ -57,11 +61,14 @@ article {
   padding-bottom: 1rem;
 }
 
-@media (min-width: 700px) {
+@media (max-width: 700px) {
   main {
     flex-direction: column;
   }
   article {
     margin-bottom: 2rem;
+  }
+  .top-list {
+    padding-bottom: 0.4rem;
   }
 }
